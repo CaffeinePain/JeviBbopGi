@@ -1,0 +1,37 @@
+#jevi1,
+#jevi2,
+#jevi3 {
+  position: absolute;
+  top: 15%;
+
+  width: 100px;
+  height: 400px;
+  background-color: greenyellow;
+}
+
+#jevi1 {
+  left: 15%;
+}
+
+#jevi2 {
+  left: 45%;
+}
+
+#jevi3 {
+  left: 75%;
+}
+
+#btnDiv {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  border: none;
+  background-color: yellow;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+}
