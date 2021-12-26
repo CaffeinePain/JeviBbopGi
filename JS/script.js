@@ -44,13 +44,13 @@ function shuffle() {
 function showResult() {
     if (shuffle) {
         switch(win) {
-        case 1: jevi1.style.backgroundColor = "pink";
+        case 1: jevi1.src = "Img/pinkJevi.png";
                 done = true;
                 break;
-        case 2: jevi2.style.backgroundColor = "pink";
+        case 2: jevi2.src = "Img/pinkJevi.png";
                 done = true;
                 break;
-        case 3: jevi3.style.backgroundColor = "pink";
+        case 3: jevi3.src = "Img/pinkJevi.png";
                 done = true;
                 break;
         }
@@ -60,8 +60,8 @@ function showResult() {
 function reset() {
     shuffled = false;
     done = false;
-    jevi1.style.backgroundColor = "greenyellow";
-    jevi2.style.backgroundColor = "greenyellow";
-    jevi3.style.backgroundColor = "greenyellow";
+    jevi1.src = "Img/greenJevi.png";
+    jevi2.src = "Img/greenJevi.png";
+    jevi3.src = "Img/greenJevi.png";
     sflBtn.style.backgroundColor = "yellow";
 }
